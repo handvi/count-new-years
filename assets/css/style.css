@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+.countdown {
+    font-size: 2em;
+}
