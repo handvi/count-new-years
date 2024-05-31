@@ -1,3 +1,13 @@
+const images = [
+    'url(https://source.unsplash.com/random/1920x1080?nature)',
+    'url(https://source.unsplash.com/random/1920x1080?city)',
+    'url(https://source.unsplash.com/random/1920x1080?space)',
+    'url(https://source.unsplash.com/random/1920x1080?ocean)',
+    'url(https://source.unsplash.com/random/1920x1080?forest)'
+];
+
+document.body.style.backgroundImage = images[Math.floor(Math.random() * images.length)];
+
 function updateCountdown() {
     const now = new Date();
     const currentYear = now.getFullYear();
